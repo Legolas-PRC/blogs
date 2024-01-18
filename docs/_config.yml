@@ -1,5 +1,3 @@
-remote_theme: "Legolas-PRC/jekyll-theme-basically-basic@v1.0"
-
 # Site Settings
 lang: zh-CN
 title: 陈钱的博客
@@ -54,6 +52,7 @@ permalink: /:categories/:title/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
+remote_theme: "Legolas-PRC/jekyll-theme-basically-basic@v1.0"
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
