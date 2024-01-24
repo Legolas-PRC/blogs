@@ -13,7 +13,6 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # 站点全局配置
 
 locale: "zh-CN" # 本地化
-
 title: "陈钱的blog" # 站点title
 subtitle: "welcome to my blog"
 
@@ -34,6 +33,9 @@ logo: # 站点标题前的logo,path：/assets/images/。。。
 masthead_title: # 顶栏的标题
 
 
+include:
+  - _pages
+
 # Defaults
 defaults:
   # _posts
@@ -47,3 +49,10 @@ defaults:
       comments: true
       # share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
