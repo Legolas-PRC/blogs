@@ -1,5 +1,5 @@
 # Plugins
-remote_theme: Legolas-PRC/minimal-mistakes@v1.0
+remote_theme: "Legolas-PRC/minimal-mistakes@v1.0"
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
