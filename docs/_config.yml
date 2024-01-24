@@ -11,30 +11,30 @@ plugins: # previously gems
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # 站点全局配置
-  # 本地化
-  locale: zh-CN
-  # 站点title
-  title: "陈钱的blog"
-  subtitle: 
-  # 作者名
-  name: 陈钱
-  # 站点描述
-  description: this is my blog
-  # protocol+hostname
-  URL: 
-  # 所在的子目录
-  baseurl: 
-  # 项目的仓库名:"username/repo-name"
-  repository: 
-  # 可在yml中其他地方被用到的图片，path：/assets/images/。。。
-  teaser:
-  # 站点标题前的logo,path：/assets/images/。。。
-  logo: 
-  # 顶栏的标题
-  masthead_title: 
+
+locale: zh-CN # 本地化
+
+title: "陈钱的blog" # 站点title
+subtitle: 
+
+name: 陈钱 # 作者名
+
+description: this is my blog # 站点描述
+
+URL: # protocol+hostname
+
+baseurl: # 所在的子目录
+
+repository: # 项目的仓库名:"username/repo-name"
+
+teaser: # 可在yml中其他地方被用到的图片，path：/assets/images/。。。
+
+logo: # 站点标题前的logo,path：/assets/images/。。。
+
+masthead_title: # 顶栏的标题
 
 
-  # Defaults
+# Defaults
 defaults:
   # _posts
   - scope:
