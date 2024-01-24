@@ -1,5 +1,5 @@
 # Plugins
-remote_theme: "Legolas-PRC/jekyll-TeXt-theme@v1.0"
+theme: jekyll-text-theme # Gem-based Jekyll Themes
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
