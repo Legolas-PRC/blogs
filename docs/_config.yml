@@ -1,8 +1,9 @@
 # Plugins
-theme: jekyll-text-theme # Gem-based Jekyll Themes
+remote_theme: Legolas-PRC/minimal-mistakes@v1.0
 plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-include-cache
