@@ -12,14 +12,14 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # 站点全局配置
 
-locale: zh-CN # 本地化
+locale: "zh-CN" # 本地化
 
 title: "陈钱的blog" # 站点title
-subtitle: 
+subtitle: "welcome to my blog"
 
-name: 陈钱 # 作者名
+name: "陈钱" # 作者名
 
-description: this is my blog # 站点描述
+description: "this is my blog" # 站点描述
 
 URL: # protocol+hostname
 
@@ -45,5 +45,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      # share: true
       related: true

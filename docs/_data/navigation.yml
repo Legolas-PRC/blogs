@@ -21,8 +21,10 @@ foo:
 # main links
 # 顶行导航栏
 main:
+  - title: "HOME"
+    url: /
   - title: "POSTS"
-    url: /_posts/
+    url: /posts/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
