@@ -12,6 +12,7 @@ plugins: # previously gems
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # 站点全局配置
+# https://mmistakes.github.io/minimal-mistakes
 
 locale: "zh-CN" # 本地化
 title: "陈钱的blog" # 站点title
