@@ -1,6 +1,5 @@
 ---
 title: "java8中的lambda表达式与Stream类库"
-classes: wide
 categories:
   - java
 tags:
