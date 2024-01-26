@@ -232,3 +232,10 @@ creation of a new result container (supplier())
 incorporating a new data element into a result container (accumulator())  
 combining two result containers into one (combiner())  
 performing an optional final transform on the container (finisher())
+
+---
+
+参考：  
+https://mp.weixin.qq.com/s/ud5TckFLXWrVpilmobynhQ  
+《java函数式编程》  
+java8源码
