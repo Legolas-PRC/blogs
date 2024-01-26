@@ -236,6 +236,5 @@ performing an optional final transform on the container (finisher())
 ---
 
 参考：  
-https://mp.weixin.qq.com/s/ud5TckFLXWrVpilmobynhQ  
+[万字长文详解Java lambda表达式](https://mp.weixin.qq.com/s/ud5TckFLXWrVpilmobynhQ)  
 《java函数式编程》  
-java8源码
