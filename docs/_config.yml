@@ -17,23 +17,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale: "zh-CN" # 本地化
 title: "陈钱的blog" # 站点title
 subtitle: "welcome to my blog"
-
 name: "陈钱" # 作者名
-
 description: "this is my blog" # 站点描述
-
 URL: # protocol+hostname
-
 baseurl: # 所在的子目录
-
 repository: # 项目的仓库名:"username/repo-name"
-
 teaser: # 可在yml中其他地方被用到的图片，path：/assets/images/。。。
-
 logo: # 站点标题前的logo,path：/assets/images/。。。
-
 masthead_title: # 顶栏的标题
-
 search : true # true, false (default)
 # search_full_content      : true # true, false (default)
 # search_provider          : algolia # lunr (default), algolia
@@ -46,16 +37,17 @@ include:
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 
-# # Archives
-# #  Type
-# #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-# #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-# #  Path (examples)
-# #  - Archive page should exist at path when using Liquid method or you can
-# #    expect broken links (especially with breadcrumbs enabled)
-# #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-# #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-# #  - <base_path>/my-awesome-category/index.html ~> path: /
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 category_archive:
   type: liquid
   path: /categories/
