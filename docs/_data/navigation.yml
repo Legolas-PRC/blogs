@@ -25,7 +25,12 @@ main:
     url: /
   - title: "POSTS"
     url: /posts/
+  - title: "reading"
+    url: /reading/
+  - title: "essay"
+    url: /essay/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
+  

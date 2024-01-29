@@ -80,11 +80,29 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       # share: true
       related: true
+      toc: true # 开启目录
+      toc_label: "目录"
+      toc_sticky: true # stick table of contents to the top of page
+  - scope:
+      path: "_essay"
+      type: essay
+    values: 
+      layout: single
+      author_profile: false
+      toc: true # 开启目录
+      toc_label: "目录"
+      toc_sticky: true # stick table of contents to the top of page
+  - scope:
+      path: "_reading"
+      tpye: reading
+    values:
+      layout: single
+      author_profile: false
       toc: true # 开启目录
       toc_label: "目录"
       toc_sticky: true # stick table of contents to the top of page
@@ -284,20 +302,26 @@ defaults:
 #   enable_coderay: false
 
 
-# # Collections
-# collections:
-#   docs:
-#     output: true
-#     permalink: /:collection/:path/
-#   recipes:
-#     output: true
-#     permalink: /:collection/:path/
-#   pets:
-#     output: true
-#     permalink: /:collection/:path/
-#   portfolio:
-#     output: true
-#     permalink: /:collection/:path/
+# Collections
+collections:
+  essay: # 为_essay文件夹下每一个文件创建一个index.html
+    output: true
+    permalink: /:collection/:path/
+  reading:
+    output: true
+    permalink: /:collection/:path/
+  # docs:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # recipes:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # pets:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # # Defaults
